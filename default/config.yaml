@@ -12,8 +12,8 @@ whitelist:
 basicAuthMode: true
 # Basic authentication credentials
 basicAuthUser:
-  username: "dajibatufei"
-  password: "gaoshou"
+  username: process.env.username
+  password: process.env.password
 # Enables CORS proxy middleware
 enableCorsProxy: false
 # Disable security checks - NOT RECOMMENDED
